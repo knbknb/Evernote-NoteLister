@@ -8,7 +8,8 @@ Therefore, it suffices to get a developer token from the Sandbox API.
 
 
 
-Check out the (Eclipse) project, run it as a jar file, or build it from source run it as a java application
+Check out the (Eclipse) project, run the jar file inside the "target" directory, or build it from source and then run it as a java application.
+There is only a couple of files that matter, in the knbknb namespace. All other .java files are dependencies, most of them from the Evernote SDK.
 
 **Command line call**
 
