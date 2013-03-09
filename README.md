@@ -5,17 +5,26 @@ Evernote-NoteLister
 
 This is a small project to teach myself the Evernote API, Maven stuff, Java command-line-options processing, Eclipse-Maven interactions, and others.
 
-The command line application lists the titles of all notes in a Notebook, and how much tags there are. There is only Read-Only access. 
-Therefore, it suffices to get a developer token from the Sandbox API. obviously, it is required that you need to have an acount with Evernote, and get a token for *your* account.
+The command line application lists the titles of all notes in a Notebook, and how many tags there are. 
+Read-Only access is required, no Read-write necessary.
+Therefore, it suffices to get a developer token for the *Evernote Sandbox API*. 
+
+
+If you want to clone this script and use it, then, obviously, 
+it is required that you need to have an acount with Evernote, and get a token for *your* account.
 
 
 
 Check out the (Eclipse) project, run the jar file inside the "target" directory, or build it from source and then run it as a java application.
 There is only a couple of files that matter, in the knbknb namespace. All other .java files are dependencies, most of them from the Evernote SDK.
 
+
 **Command line call**
 
-    java -jar .\target\Evernote-Notelister-0.0.1-RELEASE.jar -v -t S-devtoken:H=d3abf -n Ideen
+    -n: Notebookname
+    -t: Your Token (a long password)
+
+    java -jar .\target\Evernote-Notelister-0.0.1-RELEASE.jar -v -t S-devtoken:H=d3abf... -n Ideen
 
 **Sample Output**
     
