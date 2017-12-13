@@ -1,11 +1,11 @@
 Evernote-NoteLister
 ===================
 
-
+A simple tool for the Command Line. It does only one thing:
 
 **Show untagged notes that should be tagged, or that ended up in the wrong notebook.**
 
-**NOTE: You can do all this in the Evernote Desktop Client, using the List View**
+**NOTE: The Java code in this repo does nothing fancy. Users can do easily what this repo does in the Evernote Desktop Client, using the List View**
 
 This is a small project to teach myself the Evernote API, Maven stuff, Java command-line-options processing, Eclipse-Maven interactions, and other technologies.
 
